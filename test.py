@@ -39,7 +39,7 @@ DOBOT_ENABLED = True
 DOBOT_PORT = "/dev/ttyUSB0"
 SAFE_Z = 50.0
 RETURN_HOME = True
-HOME_POSE = (177.93, 12.43, 27.97, 4.00)
+HOME_POSE = (155.15, 58.87, 37.87, 20.78)
 
 # ML prediction settings
 PREDICTION_BUFFER_SIZE = 25
@@ -88,11 +88,11 @@ for ch in supported_chars:
 
 # ------- 4D positions -------
 positions_4d = {
-    "home": (177.93, 12.43, 27.97, 4.00),
-    "block_1": (89.30, 202.24, -38.00, 66.18),
-    "block_2": (197.08, 109.06, -37.40, 28.96),
-    "drop_off_1": (137.31, 251.13, -34.40, 61.33),
-    "drop_off_2": (244.45, 154.50, -39.07, 32.29),
+    "home": (155.15, 58.87, 37.87, 20.78),
+    "block_1": (140.97, 126.50, -37.63, 41.90),
+    "block_2": (188.56, 14.84, -36.73, 4.50),
+    "drop_off_1": (192.14, 147.91, -37.70, 7.59),
+    "drop_off_2": (237.50, 38.63, -38.24, 9.24),
 }
 
 # ------- Dobot control -------
